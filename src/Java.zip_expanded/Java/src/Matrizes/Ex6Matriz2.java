@@ -9,7 +9,7 @@ public class Ex6Matriz2 {
 		int matriz[][] = new int[7][8];
 		
 		for (int i = 0; i < 7; i++) {
-            for (int i2 = 0; i2 < 28; i2++) {
+            for (int i2 = 0; i2 < 8; i2++) {
             	System.out.print("Digite um valor inteiro para a posição da linha " + (i + 1) + (" coluna ") + (i2 + 1) + ": ");
 				matriz[i][i2] = sc.nextInt();
             }
@@ -19,7 +19,7 @@ public class Ex6Matriz2 {
 
         for (int i = 0; i < 7; i++) {
             for (int i2 = 0; i2 < 8; i2++) {
-                System.out.print(matriz[i][i2] + "");
+                System.out.print(matriz[i][i2] + " ");
             }
             System.out.println();
         }
